@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">@drawable/layer_list</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--<item name="android:scaleType">centerCrop</item>-->
+    </style>
+
+    <style name="frame">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/shape</item>
+        <item name="android:layout_marginLeft">32dp</item>
+        <item name="android:layout_marginRight">32dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:alpha">.7</item>
+    </style>
+
+    <style name="button" parent="frame">
+
+        <item name="android:layout_marginLeft">64dp</item>
+        <item name="android:layout_marginRight">64dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="background">@drawable/shape_button</item>
+    </style>
+</resources>
+
